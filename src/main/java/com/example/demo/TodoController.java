@@ -51,7 +51,7 @@ public class TodoController {
         });
     }
 
-   @DeleteMapping
+   @DeleteMapping("/todos/{id}")
    void deleteTodo(@PathVariable Long id) {
         repository.deleteById(id);
    }

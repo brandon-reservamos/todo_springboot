@@ -15,8 +15,8 @@ class LoadDatabase {
   CommandLineRunner initDatabase(TodoRepository todos) {
 
     return args -> {
-      log.info("Preloading " + todos.save(new Todo("Task description 1", false)));
-      log.info("Preloading " + todos.save(new Todo("Task description 2", true)));
+      // log.info("Preloading " + todos.save(new Todo("Task description 1", false)));
+      // log.info("Preloading " + todos.save(new Todo("Task description 2", true)));
     };
   }
 }
